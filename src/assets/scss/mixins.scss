@@ -1,0 +1,6 @@
+@mixin d-flex($f-dir: row, $j-content: flex-start, $a-items: flex-start, $gap: 0) {
+  display: flex;
+  justify-content: $j-content;
+  align-items: $a-items;
+  gap: $gap;
+}

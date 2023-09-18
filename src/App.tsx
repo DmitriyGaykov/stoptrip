@@ -1,19 +1,12 @@
-import { Controls } from './features/controls'
-import { Footer } from './features/footer'
-import { Header } from './features/header'
-import { PopularAdverts } from './features/popularAdverts'
-import { PopularCategories } from './features/popularCategories'
+import {Header} from "./layouts";
+import './assets/scss/index.scss'
 
-function App() {
-    return (
-        <>
-            <Header />
-            <Controls />
-            <PopularCategories />
-            <PopularAdverts />
-            <Footer />
-        </>
-    )
+const App = () => {
+  return (
+      <>
+        <Header />
+      </>
+  )
 }
 
 export default App

@@ -1,0 +1,8 @@
+@import "src/assets/scss/mixins.scss";
+
+.wrapper {
+  @include d-flex($gap: 35px, $a-items: center);
+  .lans {
+    @include d-flex($gap: 25px);
+  }
+}
